@@ -1,6 +1,6 @@
-const {Web3} = require('web3');
+const {Web3} = require('web3'); // Correct import syntax
 require('dotenv').config();
-const web3 = new Web3(new Web3.providers.HttpProvider(process.env.ALCHEMY_MAINNET));
+const web3 = new Web3(new Web3.providers.HttpProvider(process.env.ALCHEMY_MAINET));
 const BN = require('bn.js');
 
 const routerAbi = require('./uniswapRouterAbi.json');
