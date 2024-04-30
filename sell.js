@@ -38,7 +38,7 @@ async function sell(tokenAddress, amountTokens, privateKey) {
 
         const from = account.address;
 
-        // const allowance = await tokenContract.methods.allowance(from, routerAddress).call();
+        const allowance = await tokenContract.methods.allowance(from, routerAddress).call();
 
         console.log("check 3");
 
