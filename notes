@@ -1,0 +1,11 @@
+buy
+    > should work for each type of contract. done
+
+sell
+
+    > should work for each type of quantity.     done
+    > should be able to sell anything. done
+    > add slippage to sell done.
+
+
+make buy and sell for aerodrome.
